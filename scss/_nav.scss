@@ -9,11 +9,16 @@ nav{
     color: #46a2fd;
 }
 nav a{
-    color: black;
     text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
 }
 nav ul li{
     list-style: none;
+    padding-left: 20px;
+}
+nav ul{
+    display: flex;
 }
 nav a:hover{
     color: #46a2fd;

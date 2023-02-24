@@ -9,7 +9,7 @@
     "main"
     "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 100px 200px auto 70px;
+    grid-template-rows: 100px 200px auto 60px;
     .inicio{
         display: none;
     }
@@ -23,7 +23,7 @@
                               "main main"
                               "footer footer";
         grid-template-columns: 50% auto;
-        grid-template-rows: 100px 100px 200px auto 70px;
+        grid-template-rows: 100px 100px 200px auto 60px;
        
     }
    .inicio{
@@ -37,7 +37,7 @@
                               "main main"
                               "footer footer";
         grid-template-columns: 50% auto;
-        grid-template-rows: 100px 200px auto 70px;
+        grid-template-rows: 100px 200px auto 60px;
     }
     .inicio{
         display: grid;
