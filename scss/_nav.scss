@@ -1,3 +1,4 @@
+$colorenlace: #46a2fd;
 nav{
     grid-area: nav;
     width: 100%;
@@ -6,7 +7,7 @@ nav{
     justify-content: center;
 }
 .actual{
-    color: #46a2fd;
+    color: $colorenlace;
 }
 nav a{
     text-decoration: none;
@@ -21,9 +22,9 @@ nav ul{
     display: flex;
 }
 nav a:hover{
-    color: #46a2fd;
+    color: $colorenlace;
     text-decoration: underline;
 }
 .actual{
-    color: #46a2fd;
+    color: $colorenlace;
 }
