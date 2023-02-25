@@ -42,10 +42,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
 }
-.tecnolo{
-    display: flex;
-}
-.tecnolo .tituloindex{
+.tituloindex{
     text-align: center;
 }
 iframe{
@@ -54,6 +51,5 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 20px solid #0d6efd;
-    align-items: center;
+    border: 20px solid #0d6efd;  
 }
