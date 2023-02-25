@@ -4,8 +4,7 @@ main{
 }
 .h3productos{
     border-bottom: 2px solid black;
-    text-align: center;
-    align-items: center;
+    
 }
 .card{
     width: 100%;
@@ -43,13 +42,18 @@ main{
     flex-wrap: wrap;
     justify-content: center;
 }
-.h3index{
-    text-align: center;
+.tecnolo{
+    display: flex;
 }
-.pindex{
+.tecnolo .tituloindex{
     text-align: center;
 }
 iframe{
-    width: 560px; 
-    height: 315px;
+    width: 600px; 
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid #0d6efd;
+    align-items: center;
 }
