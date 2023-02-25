@@ -2,7 +2,7 @@
 main{
     grid-area: main;
 }
-.h3productos{
+.todosproductos{
     border-bottom: 2px solid black;
     
 }
@@ -42,14 +42,14 @@ main{
     flex-wrap: wrap;
     justify-content: center;
 }
-.tituloindex{
+.containerindex{
     text-align: center;
+    display: flex;
+    justify-content: center;
+
 }
 iframe{
     width: 600px; 
     height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 20px solid #0d6efd;  
 }
