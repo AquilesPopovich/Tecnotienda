@@ -46,7 +46,6 @@ main{
     text-align: center;
     display: flex;
     justify-content: center;
-
 }
 iframe{
     width: 600px; 
@@ -54,4 +53,8 @@ iframe{
 }
 .video{
     border: 5px solid rgb(34, 30, 247);
+    position: absolute;
+}
+.tituloindex{
+    text-align: center;
 }
