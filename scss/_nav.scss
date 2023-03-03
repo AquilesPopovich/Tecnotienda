@@ -1,4 +1,4 @@
-$colorenlace: #46a2fd;
+
 nav{
     grid-area: nav;
 }
@@ -6,16 +6,21 @@ nav{
     color: $colorenlace;
 }
 nav a{
-    text-decoration: none;
+    text-decoration: underline;
     color: rgb(0, 0, 0);
     font-weight: 700;
 }
 nav ul li{
     list-style: none;
     padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: $fontfamili;
 }
 nav ul{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 nav a:hover{
     color: $colorenlace;

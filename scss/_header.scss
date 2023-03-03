@@ -1,4 +1,4 @@
-$colorFondo: #fff;
+
 header{
     width: 100%;
     grid-area: header;
@@ -12,6 +12,10 @@ header h1 b{
 .logo{
     height: 80px;
     padding-left: 10px;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+    font-family: $fontfamili;
 }
 .logo button i{
     width: 100%;
@@ -25,5 +29,5 @@ header h1 b{
     background: $colorFondo;
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 40px;
 }

@@ -1,10 +1,30 @@
 
 main{
     grid-area: main;
+    z-index: 1;
+    margin-top: 100px;
+    margin-bottom: 10px;
 }
-.todosproductos{
-    border-bottom: 2px solid black;
+.indexnos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.textoss{
+    text-align: center;
+}
+.video{
+    justify-content: center;
+    align-items: center;
+    border: solid 1px blue;
     
+}
+.h3productos{
+    border-bottom: 2px solid black; 
+    text-align: center;
+    font-family: $fontfamili;
 }
 .card{
     width: 100%;
@@ -23,7 +43,7 @@ main{
 }
 .card img{
     width: 100%;
-    height: 210px;
+    height: ($alto/2)+10px;
 }
 .card a{
     display: flex;
@@ -42,19 +62,58 @@ main{
     flex-wrap: wrap;
     justify-content: center;
 }
-.containerindex{
+iframe{
+    width: $ancho; 
+    height: $alto; 
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.tel{
+    flex-direction: column;
+    display: flex;
+    border: 2px solid orange;
+    margin-bottom: 15px;
+}
+.container-form a i{
+    color: orange;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+.container-form a{
+    text-decoration: none;
+    color: $color_a_form;
+}
+.container-form a:hover{
+    color: $color_hover_form;
+}
+.container-form h2{
+    text-decoration: underline;
     text-align: center;
+    font-family: $fontfamili;
+}
+.formulario{
     display: flex;
     justify-content: center;
 }
-iframe{
-    width: 600px; 
-    height: 400px; 
+.formulario form{
+    border: 2px solid orange;
+    border-radius: 6px;
 }
-.video{
-    border: 5px solid rgb(34, 30, 247);
-    position: absolute;
+.card-title{
+    font-family: $fontfamili;
 }
 .tituloindex{
-    text-align: center;
+    font-family: $fontfamili;
+    text-decoration: underline;
+}
+
+.enestatienda{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #46a2fd;
+    font-weight: 100;
+    font-size: small;
 }
