@@ -14,3 +14,10 @@
 .btn-propio{
     @include botones;
 }
+@mixin flex($align,$justify,$wrap,$direccion){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: wrap;
+    flex-direction: $direccion;
+}

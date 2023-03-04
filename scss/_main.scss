@@ -52,9 +52,7 @@ main{
 }
 .contPadre{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    @include flex(center,center,wrap,row);
 }
 .contPadre2{
     width: 100%;
