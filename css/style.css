@@ -119,9 +119,10 @@ main {
 
 .indexnos {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .textoss {
@@ -129,8 +130,11 @@ main {
 }
 
 .video {
-  justify-content: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   border: solid 1px blue;
 }
 
@@ -158,7 +162,7 @@ main {
 
 .card img {
   width: 100%;
-  height: 210px;
+  height: 110px;
 }
 
 .card a {
@@ -179,20 +183,24 @@ main {
 .contPadre2 {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 iframe {
-  width: 600px;
-  height: 400px;
+  width: 300px;
+  height: 200px;
 }
 
 .container-form {
   display: flex;
+  align-items: center;
   justify-content: center;
-  width: 100%;
+  flex-wrap: wrap;
   flex-direction: column;
+  width: 100%;
 }
 
 .tel {
@@ -11099,6 +11107,10 @@ textarea.form-control-lg {
   .inicio {
     display: grid;
   }
+  iframe {
+    width: 400px;
+    height: 300px;
+  }
 }
 @media (min-width: 930px) {
   .grilla {
@@ -11109,6 +11121,10 @@ textarea.form-control-lg {
   .tel {
     flex-direction: row;
     justify-content: space-around;
+  }
+  iframe {
+    width: 600px;
+    height: 400px;
   }
 }
 

@@ -40,6 +40,10 @@
    .inicio{
     display: grid;
    }
+   iframe{
+    width: 400px;
+    height: 300px;
+   }
 }
 @media (min-width: 930px){
     .grilla{
@@ -54,4 +58,8 @@
         flex-direction: row;
         justify-content: space-around;
        }
+    iframe{
+        width: 600px;
+        height: 400px;
+    }
 }

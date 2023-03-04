@@ -6,18 +6,14 @@ main{
     margin-bottom: 10px;
 }
 .indexnos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    @include flex(center,center,wrap,row)
   
 }
 .textoss{
     text-align: center;
 }
 .video{
-    justify-content: center;
-    align-items: center;
+    @include flex(center,center,wrap,row);
     border: solid 1px blue;
     
 }
@@ -56,19 +52,15 @@ main{
 }
 .contPadre2{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include flex(center,center,wrap,row);
 }
 iframe{
     width: $ancho; 
     height: $alto; 
 }
 .container-form{
-    display: flex;
-    justify-content: center;
+   @include flex(center,center,wrap,column);
     width: 100%;
-    flex-direction: column;
 }
 .tel{
     flex-direction: column;
