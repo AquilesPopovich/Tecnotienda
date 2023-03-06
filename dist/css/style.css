@@ -1,8 +1,25 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+.main {
+  background-color: black;
+  color: red;
+}
+
+.btn-propio {
+  font-family: "Russo One", sans-serif;
+  font-size: 0.85rem;
+  text-align: center;
+  border-radius: 25px;
+  padding: 6px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
 header {
   width: 100%;
   grid-area: header;
@@ -102,9 +119,10 @@ main {
 
 .indexnos {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .textoss {
@@ -112,8 +130,11 @@ main {
 }
 
 .video {
-  justify-content: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   border: solid 1px blue;
 }
 
@@ -141,7 +162,7 @@ main {
 
 .card img {
   width: 100%;
-  height: 210px;
+  height: 110px;
 }
 
 .card a {
@@ -153,27 +174,33 @@ main {
 .contPadre {
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .contPadre2 {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 iframe {
-  width: 600px;
-  height: 400px;
+  width: 300px;
+  height: 200px;
 }
 
 .container-form {
   display: flex;
+  align-items: center;
   justify-content: center;
-  width: 100%;
+  flex-wrap: wrap;
   flex-direction: column;
+  width: 100%;
 }
 
 .tel {
@@ -11080,6 +11107,10 @@ textarea.form-control-lg {
   .inicio {
     display: grid;
   }
+  iframe {
+    width: 400px;
+    height: 300px;
+  }
 }
 @media (min-width: 930px) {
   .grilla {
@@ -11090,6 +11121,10 @@ textarea.form-control-lg {
   .tel {
     flex-direction: row;
     justify-content: space-around;
+  }
+  iframe {
+    width: 600px;
+    height: 400px;
   }
 }
 
