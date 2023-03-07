@@ -1,7 +1,7 @@
 
 @mixin tematica($horario){ 
     $dia: white;
-    $campeones_del_mundo: url(../dist/media/th.jfif);
+    $campeones_del_mundo: url(../dist/media/campeones.jfif);
     $noche: black;
     $color-noche: red;
     @if ($horario == dia){
@@ -12,16 +12,16 @@
 
     @else if ($horario == campeones_del_mundo){
     
-        background-image: $campeones_del_mundo;
+        background: $campeones_del_mundo;
     
 }
     @else{
     
         background-color: $noche;
         color: $color-noche;
-    
 }
 }   
-.main{
-    @include tematica($horario: noche);
+main{
+    @include tematica($horario: campeones_del_mundo);
 }
+

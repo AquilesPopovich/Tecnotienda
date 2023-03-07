@@ -1,9 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
-.main {
-  background-color: black;
-  color: red;
+main {
+  background: url(../dist/media/campeones.jfif);
 }
 
 .btn-propio {
@@ -15,6 +14,7 @@
   text-decoration: none;
   font-weight: bold;
   color: white;
+  background-color: rgb(243, 174, 0);
   display: block;
   margin: auto;
   width: 50%;
@@ -24,7 +24,6 @@ header {
   width: 100%;
   grid-area: header;
   flex-direction: row;
-  background: #fff;
   z-index: 2;
 }
 
@@ -114,7 +113,7 @@ main {
   grid-area: main;
   z-index: 1;
   margin-top: 100px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .indexnos {
@@ -162,7 +161,7 @@ main {
 
 .card img {
   width: 100%;
-  height: 110px;
+  height: 210px;
 }
 
 .card a {
@@ -208,6 +207,7 @@ iframe {
   display: flex;
   border: 2px solid orange;
   margin-bottom: 15px;
+  width: 70%;
 }
 
 .container-form a i {
@@ -218,7 +218,7 @@ iframe {
 
 .container-form a {
   text-decoration: none;
-  color: blue;
+  color: #46a2fd;
 }
 
 .container-form a:hover {
@@ -11121,6 +11121,7 @@ textarea.form-control-lg {
   .tel {
     flex-direction: row;
     justify-content: space-around;
+    width: 70%;
   }
   iframe {
     width: 600px;

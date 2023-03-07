@@ -3,7 +3,7 @@ main{
     grid-area: main;
     z-index: 1;
     margin-top: 100px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 .indexnos{
     @include flex(center,center,wrap,row)
@@ -39,7 +39,7 @@ main{
 }
 .card img{
     width: 100%;
-    height: ($alto/2)+10px;
+    height: ($alto)+10px;
 }
 .card a{
     display: flex;
@@ -67,6 +67,7 @@ iframe{
     display: flex;
     border: 2px solid orange;
     margin-bottom: 15px;
+    width: 70%;
 }
 .container-form a i{
     color: orange;
