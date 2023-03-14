@@ -2,7 +2,7 @@
 main{
     grid-area: main;
     z-index: 1;
-    margin-top: 100px;
+    margin-top: 120px;
     padding-bottom: 10px;
 }
 .indexnos{
@@ -21,10 +21,12 @@ main{
     border-bottom: 2px solid black; 
     text-align: center;
     font-family: $fontfamili;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .card{
     width: 100%;
-    margin: 20px;
+    margin: 30px;
     border-radius: 6px;
     overflow: hidden;
     background: #fff;
@@ -53,7 +55,7 @@ main{
 .contPadre2{
     width: 100%;
     @include flex(center,center,wrap,row);
-}
+} 
 iframe{
     width: $ancho; 
     height: $alto; 
@@ -68,6 +70,9 @@ iframe{
     border: 2px solid orange;
     margin-bottom: 15px;
     width: 70%;
+}
+.tel a{
+    margin: 5px;
 }
 .container-form a i{
     color: orange;
@@ -107,4 +112,10 @@ iframe{
     color: #46a2fd;
     font-weight: 100;
     font-size: small;
+}
+.mb-3{
+    margin: 5px 5px 0px 5px;
+}
+.btn-form{
+    margin: 0px 5px 5px 5px;
 }
